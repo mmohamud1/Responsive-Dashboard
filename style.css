@@ -109,9 +109,25 @@ body {
     box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
 }
 
-/* Main Section */
+/* Main */
 
 main {
     background: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+}
 
+.main__container {
+    padding: 20px 50px;
+}
+
+/* Sidebar */
+
+#sidebar {
+    background: #020509;
+    grid-area: sidebar;
+    overflow-y: auto;
+    padding: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
