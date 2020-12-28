@@ -14,7 +14,9 @@
     <title>Responsive Dashboard</title>
   </head>
   <body>
+    <!--Dashboard Container-->
     <div class="container">
+      <!--Navbar-->
       <nav class="navbar">
         <div class="nav_icon" onclick="toggleSidebar()">
           <i class="fa fa-bars"></i>
@@ -36,6 +38,26 @@
           </a>
         </div>
       </nav>
+      <!--Main Section-->
+      <main>
+          <div class="main__container">
+              <!--Title-->
+             <div class="main__title">
+                 <img src="img/hello.svg" alt="">
+                 <div class="main__greeting">
+                     <h1>Hello Customer</h1>
+                     <p>Welcome to your admin dashboard</p>
+                 </div>
+             </div> 
+             <!--Cards-->
+             <div class="main__cards">
+                <i class="fa fa-user-o fa-2x"></i>
+                <div class="card__inner">
+                    <p>Number of Subscribers</p>
+                </div>
+             </div>
+          </div>
+      </main>
     </div>
   </body>
 </html>
