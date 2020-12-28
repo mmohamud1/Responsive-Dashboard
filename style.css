@@ -1,41 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
+/* Utilities */
+
 .text-primary-p {
-    color: #a5aaad;
-    font-size: 14px;
-    font-weight: 700;
+  color: #a5aaad;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .font-bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .text-title {
-    color: #2e4a66;
+  color: #2e4a66;
 }
 
 .text-lightblue {
-    color: #469cac;
+  color: #469cac;
 }
 
 .text-red {
-    color: #cc3d38;
+  color: #cc3d38;
 }
 
 .text-yellow {
-    color: #a98921;
+  color: #a98921;
 }
 
 .text-green {
-    color: #3b9668;
+  color: #3b9668;
+}
+
+/* Dashboard Container */
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.8fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    'sidebar nav nav nav'
+    'sidebar main main main';
+}
+
+/* Navbar */
+
+.navbar {
+    background: #ffff;
+    grid-area: nav;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.nav_icon {
+    display: none;
+}
+
+.nav_icon > i {
+    font-size: 26px;
+    color: #a5aaad;
+}
+
+.nav__left > a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #a5aaad;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav__left .active_link {
+    color: #265acc;
+    border-bottom: 3px solid #265acc;
+    padding-bottom: 12px;
+}
+
+.nav__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__right > a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav__right > a > i {
+    color: #a5aaad;
+    font-size: 16px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+}
+
+/* Main Section */
+
+main {
+    background: #f3f4f6;
+
 }
