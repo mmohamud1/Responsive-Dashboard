@@ -121,6 +121,11 @@ main {
   padding: 20px 50px;
 }
 
+.main__title {
+  display: flex;
+  align-items: center;
+}
+
 /* Sidebar */
 
 #sidebar {
