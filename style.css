@@ -137,10 +137,19 @@ main {
   color: #2e4a66;
   margin-bottom: 5px;
 }
+
 .main__greeting > p {
   font-size: 14px;
   font-weight: 700;
   color: #a5aaad;
+}
+
+/* Main Cards */
+
+.main__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
 }
 
 /* Sidebar */
