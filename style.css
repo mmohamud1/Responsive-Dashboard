@@ -258,6 +258,19 @@ main {
   padding: 15px;
 }
 
+/* Charts Cards */
+
+.charts__right__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card1 {
+  
+}
+
 /* Sidebar */
 
 #sidebar {
