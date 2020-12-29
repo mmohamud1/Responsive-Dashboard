@@ -41,7 +41,7 @@ var options = {
   },
   yaxis: {
     title: {
-      text: '$ (thousands)',
+      text: '£ (thousands)',
     },
   },
   fill: {
@@ -50,7 +50,7 @@ var options = {
   tooltip: {
     y: {
       formatter: function (val) {
-        return '$ ' + val + ' thousands';
+        return '£' + val + ',000';
       },
     },
   },
