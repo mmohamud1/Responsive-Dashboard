@@ -105,6 +105,7 @@ body {
   color: #a5aaad;
   font-size: 16px;
   border-radius: 50px;
+  padding: 7px;
   background: #ffffff;
   box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
 }
@@ -336,4 +337,17 @@ main {
 .sidebar__title > i {
   font-size: 18px;
   display: none;
+}
+
+.sidebar__mena > h2 {
+  color: #3ea175;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+.sidebar__link {
+  color: #f3f4f6;
 }
