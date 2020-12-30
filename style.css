@@ -390,9 +390,11 @@ main {
 
 .sidebar__logout > i {
   margin-right: 10px;
-  font-size: 10px;
+  font-size: 18px;
 }
 
+/* Sidebar Responsive */
+
 .sidebar_responsive {
-  
+  display: inline !important;
 }
