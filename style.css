@@ -69,6 +69,7 @@ body {
 
 .nav_icon {
   display: none;
+  cursor: pointer;
 }
 
 .nav_icon > i {
@@ -336,8 +337,12 @@ main {
 }
 
 .sidebar__title > i {
-  font-size: 18px;
+  font-size: 25px;
   display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .sidebar__menu > h2 {
