@@ -311,17 +311,18 @@ main {
   transition: all 0.5s;
 }
 
-.sidebar__img {
-  display: flex;
-  align-items: center;
-}
-
 .sidebar__title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #f3f4f6;
   margin-bottom: 30px;
+  /* color: #E85B6B; */
+}
+
+.sidebar__img {
+  display: flex;
+  align-items: center;
 }
 
 .sidebar__title > div > img {
@@ -339,13 +340,14 @@ main {
   display: none;
 }
 
-.sidebar__mena > h2 {
+.sidebar__menu > h2 {
   color: #3ea175;
   font-size: 16px;
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 0 10px;
   font-weight: 700;
+  text-align: center;
 }
 
 .sidebar__link {
@@ -393,8 +395,12 @@ main {
   font-size: 18px;
 }
 
-/* Sidebar Responsive */
+/* Responsive */
 
 .sidebar_responsive {
   display: inline !important;
+  z-index: 9999 !important;
+  left: 0 !important;
+  position: absolute;
 }
+
