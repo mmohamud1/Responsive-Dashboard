@@ -10,6 +10,13 @@ body {
   box-sizing: border-box;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+
 /* Utilities */
 
 .text-primary-p {
