@@ -410,8 +410,8 @@ main {
     /* grid-template-rows: 0.2fr 2.2fr; */
     grid-template-rows: 0.2fr 3fr;
     grid-template-areas:
-      "nav"
-      "main";
+      'nav'
+      'main';
   }
 
   #sidebar {
@@ -440,7 +440,7 @@ main {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .nav__left {
     display: none;
   }
