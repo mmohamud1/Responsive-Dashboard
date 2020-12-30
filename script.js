@@ -60,7 +60,6 @@ var chart = new ApexCharts(document.querySelector('#apex1'), options);
 chart.render();
 
 // Sidebar Ressponsive
-
 var sidebarOpen = false;
 var sidebar = document.getElementById('sidebar');
 var sidebarCloseIcon = document.getElementById('sidebarIcon');
