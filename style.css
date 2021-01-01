@@ -107,12 +107,12 @@ body {
 }
 
 .nav__left > a:hover {
-  color: #265acc;
+  color: #3ea175;
 }
 
 .nav__left .active_link {
-  color: #265acc;
-  border-bottom: 3px solid #265acc;
+  color: #3ea175;
+  border-bottom: 3px solid #3ea175;
   padding-bottom: 12px;
 }
 
