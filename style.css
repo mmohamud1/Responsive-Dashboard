@@ -329,7 +329,7 @@ main {
 /* Sidebar */
 
 #sidebar {
-  background: #020509;
+  background: #373737;
   grid-area: sidebar;
   overflow-y: auto;
   padding: 20px;
